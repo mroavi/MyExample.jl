@@ -9,8 +9,6 @@ using ForwardDiff
 # "using" is used, then they will take effect.
 export my_f, derivative_of_my_f
 
-greet() = print("Hello World!")
-
 include("extra_file.jl")
 
 end # module
